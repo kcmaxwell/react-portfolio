@@ -1,3 +1,22 @@
+const navbar = [
+  {
+    name: "Projects",
+    link: "#projects"
+  },
+  {
+    name: "Open Source",
+    link: "#open-source"
+  },
+  {
+    name: "Skills",
+    link: "#skills"
+  },
+  {
+    name: "Contact",
+    link: "#contact"
+  }
+];
+
 const about = {
   name: "Kristopher Maxwell",
   description: "Description of me"
@@ -25,4 +44,4 @@ const openSource = [
 
 const skills = ["HTML", "CSS", "JavaScript", "React", "Java", "SQL"];
 
-export { about, projects, openSource, skills };
+export { navbar, about, projects, openSource, skills };
